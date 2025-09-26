@@ -4,11 +4,11 @@ Password stars
 """
 
 # Minimum length of the password
-MIN_LENGTH = 8
+MIN_PASSWORD_LENGTH = 8
 
 # Password check loop
 password = input("Password: ")
-while len(password) < MIN_LENGTH:
+while len(password) < MIN_PASSWORD_LENGTH:
     print("Password is too short!")
     password = input("Password: ")
 
